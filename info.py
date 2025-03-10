@@ -73,9 +73,9 @@ profile = {
     },
     "content_1":{
         "name":"kisan",
-        "f_name":"Kisan Kanishk",
-        "position":"Content Writer",
-        "profile":"#"
+        "f_name":"Kanishk Krishnan ",
+        "position":"Content Writer (Head)",
+        "profile":"https://www.linkedin.com/in/kanishk-krishnan-22b325228/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
     },
     "content_2":{
         "name":"soumya",
