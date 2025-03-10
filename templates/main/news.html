@@ -1,0 +1,13 @@
+
+{% block news %}
+<div class = "d-flex justify-content-center">
+    <ul class=" list-group " style="width: 1040px">
+        <li class="list-group-item active" aria-current="true" ;>An active item</li>
+        {% for item in user %}
+        <li class="list-group-item align-text-center">{{item.task}}</li>
+        {% endfor %}
+        
+      </ul>
+</div>
+
+ {% endblock %}

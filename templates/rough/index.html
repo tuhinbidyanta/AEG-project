@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="../static/css/style.css" media="screen and (min-width: 990px)">
+  <style>
+    
+  </style>
+</head>
+<body style="display: flex;" >
+  <div class = "one ">
+    <!-- logo -->
+    
+      <img src="../static/images/aeg.jpg" alt="logo" class="logo one-one ">
+    
+    <div class="one-two ">
+      <li>Home</li>
+      <li>Application</li>
+      <li>publication</li>
+      <li>Seminer</li>
+      <li>job</li>
+      <li>Comtact</li>
+    </div>
+  </div>
+  <div class ="two ">
+    <!-- main content -->
+    <div class="two-one ">
+      <div class="two-one-one ">
+        <h1>News</h1>
+        
+      </div>
+      <div class = "two-one-two" >
+        <img src="../static/images/News1.png" alt="no image" class="logo2" >
+        <div>
+          {% for news in user %}
+          <p>{{ news.task }}</p>
+          {% endfor %}
+        </div>
+        
+      </div>
+    </div>
+    <div class="two-two ">
+      <p class="two-two-1 all" id="im">member1</p>
+      <p class="two-two-2 all" id="im">member2</p>
+      <p class="two-two-3 all" id="im">member3</p>
+      <p class="two-two-4 all" id="im">member4</p>
+      <p class="two-two-5 all" id="im">member5</p>
+
+
+      
+
+    </div>
+  </div>
+  <script src="../static/js/script.js"></script>
+</body>
+</html>

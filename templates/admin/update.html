@@ -1,0 +1,10 @@
+<div id="todoForm">
+    <form action="/update/{{tas.id}}" method="post">
+
+        <label for="task">Task:</label>
+        <input type="text" id="task" name="task" value ="{{tas.task}}"><br><br>
+        <label for="id">Link:</label>
+        <input type="text" id="id" name="link" value = "{{tas.link}}"><br><br> 
+        <input type="submit" value="Submit">
+    </form>
+</div>

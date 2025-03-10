@@ -1,0 +1,44 @@
+#nav {
+    background-color: rgb(181 0 51 / 84%) !important;
+    color: rgb(254, 249, 248);
+}
+#card{
+    border-color: white !important;
+}
+#member{
+    height :150px ;
+    width:150px ;
+    /* padding: 10px ; */
+    margin: 10px;
+    border: 0px solid rgb(181 0 51 / 84%);
+    border-radius:50%;
+    align-self: center;
+}
+#butt{
+    background-color: rgb(181 0 51 / 84%) !important;
+    color: rgb(254, 249, 248);
+    border-color: white !important;
+}
+.heading{
+    
+    background-color: rgb(181 0 51 / 84%) !important;
+    color: rgb(254, 249, 248);
+}
+#mem{
+    background-color: rgb(181 0 51 / 84%) !important;}
+@media screen and (max-width: 600px){
+    
+    #mem{
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-self: center !important;
+        padding: 10px 10px;
+    }
+    
+}
+.p1 .p2{
+    display: block;
+}
+#all{
+    box-shadow: 1px 1px 10px 1px  rgb(181 0 51 / 84%) ;
+}
