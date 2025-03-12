@@ -64,7 +64,10 @@ def about():
         user = User.query.all()
         # print(User.lst(user))
         return render_template('./admin/admin.html', user=user)
-
+@app.route('/admin_login')
+def login():
+    
+    return render_template('./admin/login.html')
 # rough test 
 @app.route('/', methods=['GET','POST'])
 def hello_world():

@@ -22,11 +22,16 @@
     {% include './main/about.html' %}
     <br>
     <!--{% include './main/news.html' %}-->
-    <div class = "desktop">
+    <!--<div class= "d-flex justify-content-center flex-wrap">
+    <button type="container-fluid button" class="heading btn btn-primary" style="margin:0 0%;border-color:white;" data-bs-toggle="collapse" data-bs-target="#present">Present Member</button>
+    <button type="container-fluid button" class="heading btn btn-primary" style="margin:0 0%;border-color:white;" data-bs-toggle="collapse" data-bs-target="#demo">past Member</button>
+  </div>-->
+  <!--you have to add collapse class-->
+    <div id="present" class = " desktop">
     {%include './main/team_dextop.html'%}
   </div>
     <br>
-    <div class = "mobile">
+    <div id="present" class = "mobile">
     {% include './main/team_mob.html' %}
   </div>
 
